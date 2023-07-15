@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Mukta:wght@200&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Kanit:wght@200&family=Mukta:wght@200&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Kanit:wght@200&family=Mukta:wght@200&family=Play&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+        #navbar {
+            display: flex;
+            /* position: relative; */
+           
+          position: sticky;
+            /* background-color: rgb(127, 191, 255); */
+
+            background-color: rgba(128, 128, 128, 0.452);
+        }
+         
+        #logo>img{
+            mix-blend-mode: darken;
+        }
+
+
+        #navbar ul {
+            display: flex;
+            font-size: 1.7rem;
+            position: relative;
+        }
+
+        #navbar ul li {
+            display: flex;
+            padding: 6px 15px;
+            margin: -10px 7px;
+
+            font-family: 'Kanit', sans-serif;
+
+
+            /* display: inline-block; */
+
+        }
+
+        #navbar ul a {
+            display: block;
+            color: rgb(62, 130, 240);
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        
+        #navbar input[type=text]{
+            border-radius: 10px;
+            margin: 2px -5px;
+            padding: 2px 20px;
+        }
+
+        #navbar ul a:hover {
+            color: black;
+            background-color: rgb(131, 199, 201);
+        }
+        #navbar ul li i{
+            font-size: 20px;
+            padding: 2px 2px;
+            margin: 5px -67px;
+        }
+        #home {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url('./cocktail-umbrellas-2284093\ \(1\).jpg');
+            height: 300px;
+
+           
+
+        }
+
+        #h-primary {
+            text-align: center;
+            margin: -10px 5px;
+            font-size: 1.8rem;
+            font-family: 'Belanosima', sans-serif;
+
+        }
+
+        .btn {
+            background-color: cornflowerblue;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(103, 188, 250);
+        }
+
+        #our {
+
+            text-align: center;
+            font-size: 2.2rem;
+            border: outset;
+
+            font-family: 'Belanosima', sans-serif;
+
+        }
+
+        #services {
+            background-image: url('./image/pexels-asad-photo-maldives-1456291.jpg');
+            border-radius: 10px;
+            margin: 25px;
+            display: flex;
+           
+        }
+
+        #services .box {
+              
+            background-color: rgb(236, 233, 230);
+            padding: 15px;
+            margin: 10px 7px;
+            /* border: 2px solid brown; */
+            border-radius: 40px;
+            text-indent: 20px;
+            text-align: justify;
+            /* transition: all 1s; */
+        }
+         /* #services .box:hover{
+
+             transform: rotate(90deg);
+         } */
+
+        #services .box img {
+            width: 100px;
+            padding: 10px 140px;
+            display: block;
+        }
+
+        .h-secondary {
+            text-align: center;
+
+font-family: 'Play', sans-serif;
+           
+   
+           
+
+        }
+
+
+        #client-cotainer {
+            background-image: url('./image/pexels-engin-akyurt-1552620.jpg');
+            height: 200px;
+            border-radius: 20px;
+        }
+
+        #client-section {
+            text-align: center;
+            font-size: 2.5rem;
+
+            font-family: 'Belanosima', sans-serif;
+
+        }
+
+        .client {
+            display: flex;
+            margin: 10px 20px;
+        }
+
+        #contact-container{
+            width: 100%;
+            height: 300px;
+            background-image: url('./image/pexels-chokniti-khongchum-2280549\ \(1\).jpg');
+            border-radius: 80%;
+        }
+
+        #h-secondary{
+            text-align: center;
+            font-size: 2.5rem;
+            font-family: 'Belanosima', sans-serif;
+
+        }
+        #contact-box{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        /* #contact-box:hover{
+            transform: rotate(360deg);
+        } */
+
+        #contact-box input{
+            width: 100%;
+            padding: 2px 20px;
+        }
+
+        #contact-box form{
+            width: 38%;
+        } 
+
+        .photo img{
+            width: 200px;
+            margin: 10px 100px;
+            border-radius: 30%;
+        }
+        .sticky{
+            /* position: sticky; */
+            top: 0px;
+            position: fixed;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar" class="sticky" >
+        <div id="logo">
+            <img src="./image/logo.png" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="#">home</a></li>
+            <li class="item"><a href="#">services</a></li>
+            <li class="item"><a href="#">client</a></li>
+            <li class="item"><a href="#">contact</a></li>
+            <li><input type="text" placeholder="search.."></li>
+            <li><i class="fa-solid fa-magnifying-glass"></i> </li>
+        </ul>
+        
+    </nav>
+    <section id="home">
+        <div id="h-primary">
+            <h1 >my online webside</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio debitis, assumenda doloribus aut sed natus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn">Order now</button>
+    </section>
+    <section id="services-cotainer">
+        <h1 id="our">our services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="./cocktail-umbrellas-2284093 (1).jpg" alt="">
+                <h2 class="h-secondary">food ordering</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorem repellat voluptatem
+                    rem quae cum hic officiis commodi doloremque quia.</p>
+            </div>
+            <div class="box">
+                <img src="./cocktail-umbrellas-2284093 (1).jpg" alt="">
+                <h2 class="h-secondary">food ordering</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorem repellat voluptatem
+                    rem quae cum hic officiis commodi doloremque quia.</p>
+            </div>
+            <div class="box">
+                <img src="./cocktail-umbrellas-2284093 (1).jpg" alt="">
+                <h2 class="h-secondary">food ordering</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorem repellat voluptatem
+                    rem quae cum hic officiis commodi doloremque quia.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-cotainer">
+        <h1 id="client-section">our client</h1>
+        <div class="client">
+            <div id="client-item">
+                <img src="./image/Screenshot (13).png" alt="">
+            </div>
+            <div id="client-item">
+                <img src="./image/nike logo.png" alt="">
+            </div>
+            <div id="client-item">
+                <img src="./image/Screenshot (13).png" alt="">
+            </div>
+            <div id="client-item">
+                <img src="./image/nike logo.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact-container">
+        <h1 id="h-secondary">contact us</h1>
+        <div id="contact-box">
+
+            <form action="">
+                <div> <label for="name">name:</label>
+                    <input type="name" placeholder="enter ypour name" required>
+                </div>
+                <div> <label for="name">name:</label>
+                    <input type="name" placeholder="enter ypour name" required>
+                </div>
+                <div> <label for="name">name:</label>
+                    <input type="name" placeholder="enter ypour name" required>
+                </div>
+                <div> <label for="name">name:</label>
+                    <input type="name" placeholder="enter ypour name" required>
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+
+
+    <section class="photo">
+
+
+        <img src="./image/pexels-artem-podrez-5726808.jpg" alt="">
+        <img src="./image/pexels-chokniti-khongchum-3938023.jpg" alt="">
+        <img src="./image/pexels-asad-photo-maldives-1456291.jpg" alt="">
+    </section>
+</body>
+
+</html>
