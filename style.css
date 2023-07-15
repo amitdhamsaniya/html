@@ -1,0 +1,164 @@
+/* navbar */
+#navbar {
+    display: flex;
+    background-color: rgb(203, 202, 202);
+    position: relative;
+    
+
+}
+
+
+
+#navbar ul {
+    display: flex;
+    font-size: 1.1rem;
+   
+   
+
+}
+
+#navbar ul li {
+    display: flex;
+    margin: 10px 25px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: rgb(100, 70, 250);
+    background-color: rgb(183, 223, 210);
+    border-radius: 7px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./image/cocktail-umbrellas-2284093\ \(1\).jpg');
+
+}
+
+
+.center {
+    text-align: center;
+}
+
+#services {
+    margin: 25px;
+    display: flex;
+}
+
+
+#services .box {
+    padding: 15px;
+    margin: 10px 10px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    background-color: rgb(243, 235, 225);
+}
+
+
+#services .box img {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+
+.h-primary {
+    font-size: 2.5rem;
+
+
+}
+
+.h-secondary {
+    font-size: 1.8rem;
+    border: outset;
+}
+
+.btn {
+    padding: 2px 15px;
+    color: rgb(253, 247, 247);
+    background-color: rgb(55, 80, 201);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(37, 111, 148);
+
+}
+
+#client-section {
+    text-align: center;
+    background-image: url('./image/pexels-rfstudio-3825412.jpg');
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+#client {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+}
+
+
+
+#client-item {
+    padding: 20px;
+}
+
+
+#content {
+    color: white;
+    background-image: url('./istockphoto-1181366400-1024x1024.jpg');
+    font-size: 1.8rem;
+}
+
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+
+}
+
+
+#contact-box input,
+#contact-box textarea {
+
+    width: 100%;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+
+#contact-box form {
+    width: 40%;
+}
+
+
+.center {
+    background-color: rgb(235, 219, 199);
+}
+
+.btns{
+    background-color: aqua;
+    width: 50%;
+    padding: 4px 20px;
+    margin: 1px 140px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btns:hover{
+    background-color: rgb(132, 211, 211);
+
+}
