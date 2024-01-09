@@ -1,0 +1,62 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Jost&family=Marcellus&family=Montserrat&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.row {
+    display: flex;
+}
+
+.jcs {
+    justify-content: space-between;
+}
+.col_25{
+    width: 25%;
+    border: 1px solid black;
+}
+.col_75{
+    width: 75%;
+}
+header{
+    padding: 15px 0;
+    background-color: rgb(95, 184, 222);
+
+}
+.click_nav ul {
+    display: flex;
+}
+.click_nav ul li{
+    display: inline-block;
+}
+.click_nav ul a{
+    color: black;
+    text-decoration: none;
+    margin: 10px 9px;
+    padding: 12px 15px;
+    font-size: 21px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+}   
+ol li{
+    margin-left: 25px;
+}
+ol li p{
+ line-height: 1.5;
+}
